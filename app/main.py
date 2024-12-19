@@ -10,7 +10,7 @@ import re
 st.title("Sistem Rekomendasi")
 
 # Load Data
-df = pd.read_csv("footlocker.csv")
+df = pd.read_csv("app/footlocker.csv")
 
 
 # Filter data dengan deskripsi yang tidak null
