@@ -7,7 +7,7 @@ from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import re
 
 # Judul Aplikasi
-st.title("Sistem Rekomendasi")
+st.title("Sistem Rekomendasi Sepatu")
 
 # Load Data
 df = pd.read_csv("footlocker.csv")
